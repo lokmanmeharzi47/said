@@ -667,6 +667,16 @@
       color: var(--gold-bright);
     }
 
+    .contact-pill-wa svg {
+      fill: #25D366;
+    }
+
+    .contact-pill-wa:hover {
+      border-color: #25D366;
+      color: #8bf4b0;
+      background: rgba(37, 211, 102, 0.15);
+    }
+
     /* Legal Directives */
     .legal-directives {
       background: rgba(6, 18, 13, 0.92);
@@ -902,7 +912,7 @@
         <span id="btn-save-contact">حفظ بطاقة الاتصال الرسمية (vCard)</span>
       </button>
 
-      <a href="tel:+213000000000" class="btn-executive btn-emerald-outline" id="btn-top-call">
+      <a href="tel:+213662510675" class="btn-executive btn-emerald-outline" id="btn-top-call">
         <!-- Phone SVG -->
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
@@ -968,6 +978,21 @@
           <dt id="lbl-signatory">رئيس الهيئة الوطنية للتنمية</dt>
           <dd id="val-signatory">القائد شريط عبد الكريم</dd>
         </div>
+
+        <div class="cred-item">
+          <dt id="lbl-cred-tel">أرقام الاتصال المعتمدة</dt>
+          <dd class="mono-gold" id="val-cred-tel">
+            <a href="tel:+213662510675" style="color: inherit; text-decoration: none;">0662 51 06 75</a><br>
+            <a href="tel:+213697505837" style="color: inherit; text-decoration: none;">0697 50 58 37</a>
+          </dd>
+        </div>
+
+        <div class="cred-item">
+          <dt id="lbl-cred-mail">البريد الإلكتروني الرسمي</dt>
+          <dd class="mono-gold" id="val-cred-mail" style="font-size: 0.76rem; word-break: break-all;">
+            <a href="mailto:saidlahziel75@gmail.com" style="color: inherit; text-decoration: none;">saidlahziel75@gmail.com</a>
+          </dd>
+        </div>
       </dl>
     </section>
 
@@ -1017,18 +1042,32 @@
 
     <!-- Direct Contact Options -->
     <section class="contact-pills anim-reveal" aria-label="قنوات التواصل">
-      <a href="tel:+213000000000" class="contact-pill" id="btn-call">
+      <a href="tel:+213662510675" class="contact-pill" id="btn-call-1">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
         </svg>
-        <span id="txt-contact-phone">الاتصال المباشر بالمكتب الجهوي</span>
+        <span id="txt-contact-phone-1">الاتصال المباشر (موبيليس): 0662 51 06 75</span>
       </a>
 
-      <a href="mailto:contact@lahziel-said.dz" class="contact-pill" id="btn-mail">
+      <a href="tel:+213697505837" class="contact-pill" id="btn-call-2">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+        <span id="txt-contact-phone-2">الاتصال المباشر (أوريدو): 0697 50 58 37</span>
+      </a>
+
+      <a href="https://wa.me/213662510675" target="_blank" rel="noopener noreferrer" class="contact-pill contact-pill-wa" id="btn-wa">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.106 8.106 0 0 1-1.25-4.29c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.41 3.61 2.41 5.8 0 4.52-3.68 8.2-8.2 8.2zm4.49-6.14c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43l-.48-.01c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07s.89 2.4 1.01 2.57c.12.17 1.75 2.67 4.25 3.74.59.26 1.05.41 1.41.53.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.22-.19-.47-.31z"/>
+        </svg>
+        <span id="txt-contact-wa">محادثة واتساب: 0662 51 06 75</span>
+      </a>
+
+      <a href="mailto:saidlahziel75@gmail.com" class="contact-pill" id="btn-mail">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
         </svg>
-        <span id="txt-contact-mail">المراسلة الرسمية عبر البريد الإلكتروني</span>
+        <span id="txt-contact-mail">البريد الإلكتروني: saidlahziel75@gmail.com</span>
       </a>
 
       <div class="contact-pill" onclick="copyOfficeLocation()" role="button" tabindex="0">
@@ -1203,9 +1242,10 @@
         'N:LAHZIEL;SAID;;;',
         'FN:SAID LAHZIEL (السعيد الهزيل)',
         'ORG:المنظمة الجزائرية إتصال من أجل التنمية - الهيئة الوطنية لتنمية المهاجرين والتكفل بالجالية بالخارج',
-        'TITLE:عضو بالمكتب الجهوي . الوسط الجزائر العاصمة',
-        'TEL;TYPE=CELL,VOICE:+213000000000',
-        'EMAIL;TYPE=WORK:contact@lahziel-said.dz',
+        'TITLE:عضو بالمكتب الجهوي • الوسط الجزائر العاصمة',
+        'TEL;TYPE=CELL,VOICE;PREF=1:+213662510675',
+        'TEL;TYPE=CELL,VOICE:+213697505837',
+        'EMAIL;TYPE=INTERNET,WORK,PREF=1:saidlahziel75@gmail.com',
         'NOTE:الرقم التعريفي: 100112 | رقم التسجيل: 2026201601121018 | إعتماد وزارة الداخلية رقم 017',
         'END:VCARD'
       ].join('\r\n');
@@ -1257,6 +1297,8 @@
         valIssue: 'أكتوبر 2026 (صالحة لمدة سنة قابلة للتجديد)',
         lblSignatory: 'رئيس الهيئة الوطنية للتنمية',
         valSignatory: 'القائد شريط عبد الكريم',
+        lblCredTel: 'أرقام الاتصال المعتمدة',
+        lblCredMail: 'البريد الإلكتروني الرسمي',
         pillarsHeading: 'المهام والأهداف الاستراتيجية للهيئة',
         p1Title: 'إتصال وتنسيق الجالية الجزائرية بالخارج',
         p1Desc: 'مد جسور التواصل الفعال والدائم مع الكفاءات وأفراد الجالية بالمهجر، وتسهيل اندماجهم وتوثيق صلتهم بالوطن الأم.',
@@ -1264,8 +1306,10 @@
         p2Desc: 'مرافقة المستثمرين وحاملي المشاريع من أبناء الجالية، وفتح الآفاق التنموية لدعم الاقتصاد الجزائري الواعد.',
         p3Title: 'التكفل الشامل ورعاية المهاجرين',
         p3Desc: 'تقديم المرافقة الإدارية والقانونية والمجتمعية اللازمة وفق المواثيق والأطر الرسمية الدولية والوطنية.',
-        contactPhone: 'الاتصال المباشر بالمكتب الجهوي',
-        contactMail: 'المراسلة الرسمية عبر البريد الإلكتروني',
+        contactPhone1: 'الاتصال المباشر (موبيليس): 0662 51 06 75',
+        contactPhone2: 'الاتصال المباشر (أوريدو): 0697 50 58 37',
+        contactWa: 'محادثة واتساب: 0662 51 06 75',
+        contactMail: 'البريد الإلكتروني: saidlahziel75@gmail.com',
         contactLoc: 'المقر: الجزائر العاصمة • المكتب الجهوي للوسط',
         legalHeading: 'توجيهات وضوابط أمنية وإدارية رسمية',
         dir1: 'الصفة التمثيلية شخصية وصادرة وفق المعايير والاعتمادات الإدارية الرسمية.',
@@ -1307,6 +1351,8 @@
         valIssue: 'Octobre 2026 (Valable un an renouvelable)',
         lblSignatory: 'Président de l’Autorité Nationale',
         valSignatory: 'Le Commandant Cherit Abdelkrim',
+        lblCredTel: 'Téléphones officiels',
+        lblCredMail: 'Courrier électronique officiel',
         pillarsHeading: 'Missions & Objectifs Stratégiques',
         p1Title: 'Communication et liaison avec la diaspora',
         p1Desc: 'Bâtir des passerelles permanentes avec les compétences et membres de la communauté à l’étranger.',
@@ -1314,9 +1360,11 @@
         p2Desc: 'Accompagner les porteurs de projets et ouvrir les horizons pour fortifier l’économie nationale.',
         p3Title: 'Prise en charge et protection des migrants',
         p3Desc: 'Assurer une assistance administrative, juridique et citoyenne conforme aux conventions internationales.',
-        contactPhone: 'Appeler le Bureau Régional',
-        contactMail: 'Correspondance Officielle par E-mail',
-        contactLoc: 'Siège: Alger • Bureau Régional du Centre',
+        contactPhone1: 'Appel Direct (Mobilis) : 0662 51 06 75',
+        contactPhone2: 'Appel Direct (Ooredoo) : 0697 50 58 37',
+        contactWa: 'Message WhatsApp : 0662 51 06 75',
+        contactMail: 'E-mail : saidlahziel75@gmail.com',
+        contactLoc: 'Siège : Alger • Bureau Régional du Centre',
         legalHeading: 'Directives Légales & Administratives',
         dir1: 'La qualité représentative est strictement personnelle et conforme aux agréments officiels.',
         dir2: 'Présentation obligatoire aux services sécuritaires et administratifs en mission.',
@@ -1357,6 +1405,8 @@
         valIssue: 'October 2026 (Valid for one renewable year)',
         lblSignatory: 'President of the National Authority',
         valSignatory: 'Commander Cherit Abdelkrim',
+        lblCredTel: 'Official Contact Numbers',
+        lblCredMail: 'Official Email',
         pillarsHeading: 'Strategic Missions and Core Pillars',
         p1Title: 'Diaspora Connection and Community Liaison',
         p1Desc: 'Fostering continuous bridges with expatriate talents and reinforcing their partnership with the motherland.',
@@ -1364,8 +1414,10 @@
         p2Desc: 'Guiding diaspora investors and unlocking promising horizons for the Algerian national economy.',
         p3Title: 'Comprehensive Protection and Migrant Sponsorship',
         p3Desc: 'Delivering tailored legal, administrative, and civic assistance under national and international treaties.',
-        contactPhone: 'Direct Regional Office Call',
-        contactMail: 'Official Email Correspondence',
+        contactPhone1: 'Direct Call (Mobilis): +213 662 51 06 75',
+        contactPhone2: 'Direct Call (Ooredoo): +213 697 50 58 37',
+        contactWa: 'WhatsApp Chat: +213 662 51 06 75',
+        contactMail: 'Email: saidlahziel75@gmail.com',
         contactLoc: 'Headquarters: Algiers • Central Regional Office',
         legalHeading: 'Official Legal & Security Directives',
         dir1: 'Official standing is strictly personal and compliant with governmental accreditation.',
@@ -1414,6 +1466,8 @@
       document.getElementById('val-issue').textContent = data.valIssue;
       document.getElementById('lbl-signatory').textContent = data.lblSignatory;
       document.getElementById('val-signatory').textContent = data.valSignatory;
+      if (document.getElementById('lbl-cred-tel')) document.getElementById('lbl-cred-tel').textContent = data.lblCredTel;
+      if (document.getElementById('lbl-cred-mail')) document.getElementById('lbl-cred-mail').textContent = data.lblCredMail;
 
       document.getElementById('txt-pillars-heading').textContent = data.pillarsHeading;
       document.getElementById('txt-p1-title').textContent = data.p1Title;
@@ -1423,9 +1477,11 @@
       document.getElementById('txt-p3-title').textContent = data.p3Title;
       document.getElementById('txt-p3-desc').textContent = data.p3Desc;
 
-      document.getElementById('txt-contact-phone').textContent = data.contactPhone;
-      document.getElementById('txt-contact-mail').textContent = data.contactMail;
-      document.getElementById('txt-contact-loc').textContent = data.contactLoc;
+      if (document.getElementById('txt-contact-phone-1')) document.getElementById('txt-contact-phone-1').textContent = data.contactPhone1;
+      if (document.getElementById('txt-contact-phone-2')) document.getElementById('txt-contact-phone-2').textContent = data.contactPhone2;
+      if (document.getElementById('txt-contact-wa')) document.getElementById('txt-contact-wa').textContent = data.contactWa;
+      if (document.getElementById('txt-contact-mail')) document.getElementById('txt-contact-mail').textContent = data.contactMail;
+      if (document.getElementById('txt-contact-loc')) document.getElementById('txt-contact-loc').textContent = data.contactLoc;
 
       document.getElementById('txt-legal-heading').textContent = data.legalHeading;
       document.getElementById('txt-dir-1').textContent = data.dir1;
